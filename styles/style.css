@@ -1,38 +1,42 @@
 /* header portion */
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 .header {
     text-align: center;
     background-image: url('../images/headerpic.jpg');
     background-repeat: no-repeat;
-    
+
 }
 
 .header-title {
     color: #FFFFFF;
-    
+
 }
+
 .header-div {
     padding: 130px 120px;
 }
 
-.primary-btn{
+.primary-btn {
     font-weight: 700;
     font-size: 20px;
     color: #FFFFFF;
     border: 0;
-    background:#C780FA;
+    background: #C780FA;
     border-radius: 5px;
     height: 50px;
     padding: 10px 20px;
-    
+
 }
+
 .primary-btn:hover {
     background-color: lightsalmon;
     transition: 0.7s;
 }
+
 .header-para {
     padding: 20px 0;
     color: #FFFFFF;
@@ -40,27 +44,28 @@
 
 /* donation-section */
 
-.donation-section{
+.donation-section {
     text-align: center;
     padding: 130px;
 }
 
-.section-title{
+.section-title {
     padding: 20px;
 }
 
-.section-para{
+.section-para {
     padding-bottom: 20px;
     color: grey;
 }
-.five-btn{
-    padding-top:10px;
+
+.five-btn {
+    padding-top: 10px;
     padding-bottom: 30px;
-    
-    
+
+
 }
 
-.buttons{
+.buttons {
     font-weight: 700;
     font-size: 20px;
     border: 0;
@@ -71,26 +76,27 @@
     color: lightslategray;
 }
 
-.buttons:hover{
+.buttons:hover {
     background-color: #EB455F;
     transition: 0.6s;
     color: #FFFFFF;
 
 }
 
-.amount{
+.amount {
     color: grey;
-    padding:5px;
+    padding: 5px;
     font-size: small;
 }
-.hr{
+
+.hr {
     width: 33%;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
-.amount-para-btn{
+.amount-para-btn {
     padding-top: 20px;
 }
 
@@ -100,76 +106,84 @@
     text-align: center;
 }
 
-.donation-plans{
+.donation-plans {
     display: flex;
     gap: 30px;
     justify-content: space-around;
     padding: 90px 200px;
 }
 
-.plan-title{
+.plan-title {
     font-weight: 800;
     font-size: 25px;
     padding: 20px 0;
 
 }
-.plan-para{
+
+.plan-para {
     color: grey;
 }
-.donations1{
+
+.donations1 {
     background: rgba(177, 188, 190, 0.555);
     padding: 50px 100px;
 }
-.donations2{
+
+.donations2 {
     background: rgba(248, 193, 201, 0.719);
     padding: 50px 100px;
 }
-.donations3{
+
+.donations3 {
     background: rgba(212, 178, 164, 0.685);
     padding: 50px 100px;
 }
 
 /* adding  extra  text and images */
 
-.text-img{
+.text-img {
     padding: 80px 200px;
 }
 
-.text{
+.text {
     display: flex;
     padding-bottom: 90px;
     align-items: center;
     justify-content: center;
 }
-.donation-img1{
+
+.donation-img1 {
     height: 400px;
     width: 600px;
     border: 0;
     border-radius: 5px;
-   
-    
+
+
 }
-.donation-img2{
+
+.donation-img2 {
     height: 400px;
     width: 600px;
     border: 0;
     border-radius: 5px;
     float: left;
-    
+
 }
-.only-text1{
+
+.only-text1 {
     padding-right: 100px;
 }
-.only-text2{
+
+.only-text2 {
     padding-left: 100px;
 }
 
-.ot-para{
+.ot-para {
     color: grey;
     padding: 20px 0;
 }
 
-.contribute-btn{
+.contribute-btn {
     font-weight: 700;
     font-size: 20px;
     border: 0;
@@ -181,8 +195,54 @@
     background: #EB455F;
 }
 
-.contribute-btn:hover{
+.contribute-btn:hover {
     background-color: aqua;
     transition: 0.4s;
     color: black;
+}
+
+/* update section */
+
+.update {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.update-para p {
+    color: gray;
+    padding-top: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 80px;
+}
+
+/* subscribe section */
+
+
+
+.email-sub {
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    gap: 0;
+    justify-content:center;
+    background-color: lightsalmon;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 5px;
+}
+.input{
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px 20px;
+}
+.sub-btn{
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
+    background: #EB455F;
+    padding: 10px 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
