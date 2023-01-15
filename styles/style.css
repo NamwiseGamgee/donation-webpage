@@ -129,16 +129,32 @@
     padding: 50px 100px;
 }
 
+.donations1:hover{
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.6);
+    transition: 0.4s;
+    
+}
+
 .donations2 {
     background: rgba(248, 193, 201, 0.719);
     padding: 50px 100px;
 }
 
+.donations2:hover{
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.6);
+    transition: 0.4s;
+    
+}
 .donations3 {
     background: rgba(212, 178, 164, 0.685);
     padding: 50px 100px;
 }
 
+.donations3:hover{
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.6);
+    transition: 0.4s;
+    
+}
 /* adding  extra  text and images */
 
 .text-img {
@@ -230,6 +246,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     border-radius: 5px;
+    margin-bottom: 100px;
 }
 .input{
     border: none;
@@ -245,4 +262,23 @@
     padding: 10px 20px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+.sub-btn:hover{
+    background-color: aqua;
+    transition: 0.4s;
+    color: black;
+}
+/* footer */
+
+.footer{
+    background: black;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-para {
+    font-size: 50px;
+    color: orangered;
+    padding-bottom: 30px;
 }
