@@ -51,6 +51,7 @@
 
 .section-para{
     padding-bottom: 20px;
+    color: grey;
 }
 .five-btn{
     padding-top:10px;
@@ -91,4 +92,97 @@
 
 .amount-para-btn{
     padding-top: 20px;
+}
+
+/* donation-plan section */
+
+.plans {
+    text-align: center;
+}
+
+.donation-plans{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    padding: 90px 200px;
+}
+
+.plan-title{
+    font-weight: 800;
+    font-size: 25px;
+    padding: 20px 0;
+
+}
+.plan-para{
+    color: grey;
+}
+.donations1{
+    background: rgba(177, 188, 190, 0.555);
+    padding: 50px 100px;
+}
+.donations2{
+    background: rgba(248, 193, 201, 0.719);
+    padding: 50px 100px;
+}
+.donations3{
+    background: rgba(212, 178, 164, 0.685);
+    padding: 50px 100px;
+}
+
+/* adding  extra  text and images */
+
+.text-img{
+    padding: 80px 200px;
+}
+
+.text{
+    display: flex;
+    padding-bottom: 90px;
+    align-items: center;
+    justify-content: center;
+}
+.donation-img1{
+    height: 400px;
+    width: 600px;
+    border: 0;
+    border-radius: 5px;
+   
+    
+}
+.donation-img2{
+    height: 400px;
+    width: 600px;
+    border: 0;
+    border-radius: 5px;
+    float: left;
+    
+}
+.only-text1{
+    padding-right: 100px;
+}
+.only-text2{
+    padding-left: 100px;
+}
+
+.ot-para{
+    color: grey;
+    padding: 20px 0;
+}
+
+.contribute-btn{
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    height: 60px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    background: #EB455F;
+}
+
+.contribute-btn:hover{
+    background-color: aqua;
+    transition: 0.4s;
+    color: black;
 }
